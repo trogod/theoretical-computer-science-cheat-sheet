@@ -9,6 +9,7 @@ You might need to install `fig2dev`
 ```
 make cheatsheet.ps
 ```
+this will attempt to create both `cheatsheet.ps` and `cheatsheet.pdf`
 
 ### Table of Contents
 1. [About + Credits](#about--credits)
