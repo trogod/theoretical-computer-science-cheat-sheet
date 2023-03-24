@@ -4,8 +4,8 @@ cheatsheet.ps: cheatsheet.dvi
 	dvips -f < cheatsheet.dvi > cheatsheet.ps
 	ps2pdf cheatsheet.ps
 
-cheatsheet.pdf: $(EXTRAS) ecsher.png
-	pdftex cheatsheet.tex > cheatsheet.log
+# cheatsheet.pdf: $(EXTRAS) ecsher.png
+#	pdftex cheatsheet.tex > cheatsheet.log
 
 cheatsheet.dvi: $(EXTRAS) ecsher.eps
 	tex cheatsheet.tex > cheatsheet.log 
