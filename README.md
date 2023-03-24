@@ -3,6 +3,9 @@
 # theoretical-computer-science-cheat-sheet
 ♾️ An expanded version of Steve Seiden's Theoretical Computer Science Cheat Sheet.
 
+convert ecsher.eps PNG32:ecsher.png
+convert -density 300 scratch/ecsher.eps -units PixelsPerInch  -colorspace gray +matte -colors 2 -depth 1 ecsher.png
+
 ### Table of Contents
 1. [About + Credits](#about--credits)
 2. [Contributing](#contributing)

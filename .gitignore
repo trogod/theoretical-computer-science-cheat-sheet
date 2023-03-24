@@ -1,4 +1,6 @@
 *.log
 *.dvi
 *.pdf
+*.ps
 .DS_Store
+scratch/
